@@ -6,6 +6,16 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		6A0B68092CB5527700D8DADA /* SpeciesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0B68082CB5527700D8DADA /* SpeciesViewModel.swift */; };
+		6A0B68112CB5EDFD00D8DADA /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A0B68102CB5EDFD00D8DADA /* DetailView.swift */; };
+		6AC0ED162CB4DD1300890121 /* SpeciesListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC0ED132CB4DD1300890121 /* SpeciesListView.swift */; };
+		6AC0ED172CB4DD1300890121 /* StarWarsSpeciesApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC0ED142CB4DD1300890121 /* StarWarsSpeciesApp.swift */; };
+		6AC0ED182CB4DD1300890121 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AC0ED0F2CB4DD1300890121 /* Preview Assets.xcassets */; };
+		6AC0ED192CB4DD1300890121 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6AC0ED112CB4DD1300890121 /* Assets.xcassets */; };
+		6AC0ED1C2CB4DD3000890121 /* Species.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6AC0ED1B2CB4DD3000890121 /* Species.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		6AC0ECF12CB4C1DE00890121 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -24,17 +34,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6A0B68082CB5527700D8DADA /* SpeciesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesViewModel.swift; sourceTree = "<group>"; };
+		6A0B68102CB5EDFD00D8DADA /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 		6AC0ECE02CB4C1DC00890121 /* StarWarsSpecies.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StarWarsSpecies.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC0ECF02CB4C1DE00890121 /* StarWarsSpeciesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsSpeciesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6AC0ECFA2CB4C1DE00890121 /* StarWarsSpeciesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StarWarsSpeciesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AC0ED0F2CB4DD1300890121 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6AC0ED112CB4DD1300890121 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6AC0ED122CB4DD1300890121 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6AC0ED132CB4DD1300890121 /* SpeciesListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeciesListView.swift; sourceTree = "<group>"; };
+		6AC0ED142CB4DD1300890121 /* StarWarsSpeciesApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarWarsSpeciesApp.swift; sourceTree = "<group>"; };
+		6AC0ED1B2CB4DD3000890121 /* Species.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Species.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		6AC0ECE22CB4C1DC00890121 /* StarWarsSpecies */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = StarWarsSpecies;
-			sourceTree = "<group>";
-		};
 		6AC0ECF32CB4C1DE00890121 /* StarWarsSpeciesTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = StarWarsSpeciesTests;
@@ -75,7 +88,7 @@
 		6AC0ECD72CB4C1DC00890121 = {
 			isa = PBXGroup;
 			children = (
-				6AC0ECE22CB4C1DC00890121 /* StarWarsSpecies */,
+				6AC0ED152CB4DD1300890121 /* StarWarsSpecies */,
 				6AC0ECF32CB4C1DE00890121 /* StarWarsSpeciesTests */,
 				6AC0ECFD2CB4C1DE00890121 /* StarWarsSpeciesUITests */,
 				6AC0ECE12CB4C1DC00890121 /* Products */,
@@ -92,6 +105,29 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		6AC0ED102CB4DD1300890121 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				6AC0ED0F2CB4DD1300890121 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6AC0ED152CB4DD1300890121 /* StarWarsSpecies */ = {
+			isa = PBXGroup;
+			children = (
+				6AC0ED102CB4DD1300890121 /* Preview Content */,
+				6AC0ED112CB4DD1300890121 /* Assets.xcassets */,
+				6AC0ED122CB4DD1300890121 /* Info.plist */,
+				6AC0ED142CB4DD1300890121 /* StarWarsSpeciesApp.swift */,
+				6AC0ED132CB4DD1300890121 /* SpeciesListView.swift */,
+				6AC0ED1B2CB4DD3000890121 /* Species.swift */,
+				6A0B68082CB5527700D8DADA /* SpeciesViewModel.swift */,
+				6A0B68102CB5EDFD00D8DADA /* DetailView.swift */,
+			);
+			path = StarWarsSpecies;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,9 +142,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				6AC0ECE22CB4C1DC00890121 /* StarWarsSpecies */,
 			);
 			name = StarWarsSpecies;
 			packageProductDependencies = (
@@ -212,6 +245,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AC0ED182CB4DD1300890121 /* Preview Assets.xcassets in Resources */,
+				6AC0ED192CB4DD1300890121 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +271,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6AC0ED162CB4DD1300890121 /* SpeciesListView.swift in Sources */,
+				6A0B68092CB5527700D8DADA /* SpeciesViewModel.swift in Sources */,
+				6AC0ED1C2CB4DD3000890121 /* Species.swift in Sources */,
+				6AC0ED172CB4DD1300890121 /* StarWarsSpeciesApp.swift in Sources */,
+				6A0B68112CB5EDFD00D8DADA /* DetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,9 +439,9 @@
 				DEVELOPMENT_TEAM = 92Y266UM5W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarWarsSpecies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -428,9 +468,9 @@
 				DEVELOPMENT_TEAM = 92Y266UM5W;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = StarWarsSpecies/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
